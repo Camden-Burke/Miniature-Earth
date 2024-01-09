@@ -13,7 +13,7 @@ Orbital Controls: Users can interactively navigate around the Earth model, explo
 
 Ambient Light: Evenly distributed light across the globe highlights the textures and details on the Earth's surface.
 
-Directional Light as Sunlight: Simulates sunlight, casting shadows and creating a day-night effect on the Earth model.
+Directional Light as Sunlight: Simulates sunlight
 
 Responsive Design: The application adapts seamlessly to different devices and screen sizes.
 

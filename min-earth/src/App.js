@@ -9,7 +9,7 @@ const Sphere = () => {
 
   //Simple UseFrame Rotation Animation
   useFrame(() => {
-    sphereRef.current.rotation.y += 0.001;
+    sphereRef.current.rotation.y += 0.005;
   });
   return (
     <mesh
@@ -25,7 +25,7 @@ function App() {
   return (
    <Canvas style={{background: 'black', position: 'fixed', margin: 0}} camera={{ position: [0,0,75], fov: 75}}>  
    <ambientLight intensity={0.2} />
-   <directionalLight color={0xffffff} position={[5, 3, 5]} intensity={1} castShadow />
+   <directionalLight color='white' position={[5, 3, 5]} intensity={1} />
     <Sphere/>
     <OrbitControls />
     <Stars />
