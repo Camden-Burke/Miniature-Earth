@@ -26,7 +26,7 @@ function App() {
   return (
    <Canvas style={{background: 'black', position: 'fixed', margin: 0}}>  
    <ambientLight intensity={0.5} />
-   <pointLight position={[10, 10, 10]} intensity={2} />
+   <directionalLight position={[10, 10, 10]} intensity={2} />
     <Sphere/>
     <Stars />
     <OrbitControls />
