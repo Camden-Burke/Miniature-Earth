@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import {OrbitControls, Stars} from '@react-three/drei';
 import { TextureLoader } from 'three';
-import './App.css';
 
 const Sphere = () => {
   const sphereRef = useRef();
@@ -24,12 +23,12 @@ const Sphere = () => {
 
 function App() {
   return (
-   <Canvas style={{background: 'black', position: 'fixed', margin: 0}}>  
-   <ambientLight intensity={0.5} />
-   <directionalLight position={[10, 10, 10]} intensity={2} />
+   <Canvas style={{background: 'black', position: 'fixed', margin: 0}} camera={{ position: [0,0,75], fov: 75}}>  
+   <ambientLight intensity={0.2} />
+   <directionalLight color={0xffffff} position={[5, 3, 5]} intensity={1} castShadow />
     <Sphere/>
-    <Stars />
     <OrbitControls />
+    <Stars />
    </Canvas>
   );
 }
