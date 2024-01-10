@@ -5,7 +5,7 @@ import { TextureLoader } from 'three';
 
 const Sphere = () => {
   const sphereRef = useRef();
-  const texture= useLoader(TextureLoader, 'public/textures/earth-texture-10k.jpg');
+  const texture= useLoader(TextureLoader, './static/images/earth-texture-10k.jpg');
 
   //Simple UseFrame Rotation Animation
   useFrame(() => {
