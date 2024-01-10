@@ -21,3 +21,6 @@ Auto-Rotation Feature: When not being manipulated by the user, the Earth model w
 
 Objective:
 This project showcases foundational skills in three.js and React Three Fiber, emphasizing 3D modeling, texturing, interactive controls, and lighting effects. The auto-rotation feature further demonstrates the developer's ability to create engaging, user-centric web applications with dynamic 3D elements.
+
+
+Github Pages Link: https://camden-burke.github.io/Miniature-Earth/
